@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <h1>LUIGI</h1>
+    <h1>PEGADOR DE NOMES 3000</h1>
     
     <label for="nome:">DIGITE SEU NOME</label>
 
@@ -20,9 +20,9 @@
     <script>
         document.getElementById("mBOTAO").addEventListener("click",
         function(){
-            let nome = document.getElementById("nome")
+            let nome = document.getElementById("nome").value
 
-            document.getElementById("minhaMENSAGEM").innerHTML = "Olá, " + nome + "!";
+            document.getElementById("minhaMENSAGEM").innerHTML = `Olá, ${nome}!`;
         }
         )
     </script>
